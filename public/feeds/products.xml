@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1001</id>
+    <title>Printed Cotton Taaga Dress</title>
+    <description>Premium quality printed cotton dress for kids. Soft, stylish, and perfect for all occasions.</description>
+    <link>https://www.softwareseba.com/product/1001</link>
+    <image_link>/hero.png</image_link>
+    <price>2006 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>kids</google_product_category>
+  </product>
+  <product>
+    <id>1</id>
+    <title>Stylish Check Shirt</title>
+    <description>Stylish Check Shirt</description>
+    <link>https://www.softwareseba.com/product/1</link>
+    <image_link>https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>567 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>2</id>
+    <title>Casual Blue Shirt</title>
+    <description>Casual Blue Shirt</description>
+    <link>https://www.softwareseba.com/product/2</link>
+    <image_link>https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>445 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>3</id>
+    <title>Formal Dress Shirt</title>
+    <description>Formal Dress Shirt</description>
+    <link>https://www.softwareseba.com/product/3</link>
+    <image_link>https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>650 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>4</id>
+    <title>Premium Polo Shirt</title>
+    <description>Premium Polo Shirt</description>
+    <link>https://www.softwareseba.com/product/4</link>
+    <image_link>https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>780 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>5</id>
+    <title>New Short Sleeve Casual Shirt for Men</title>
+    <description>New Short Sleeve Casual Shirt for Men</description>
+    <link>https://www.softwareseba.com/product/5</link>
+    <image_link>https://img.drz.lazcdn.com/static/bd/p/978fa994e62cb1d5091796c77d1e415d.jpg_200x200q80.avif</image_link>
+    <price>267 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>6</id>
+    <title>Long Sleeve Casual shirt for men</title>
+    <description>Long Sleeve Casual shirt for men</description>
+    <link>https://www.softwareseba.com/product/6</link>
+    <image_link>https://img.drz.lazcdn.com/static/bd/p/374c0a904869a4fe0f1f720c5a644298.jpg_200x200q80.avif</image_link>
+    <price>180 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>7</id>
+    <title>Cotton Stylish &amp; Comfortable Casual Shirt for Men</title>
+    <description>Cotton Stylish &amp; Comfortable Casual Shirt for Men</description>
+    <link>https://www.softwareseba.com/product/7</link>
+    <image_link>https://images.unsplash.com/photo-1564859228273-274232fdb516?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>220 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>8</id>
+    <title>New Stylish &amp; Fashionable Full Sleeve Formal Shirts For Men</title>
+    <description>New Stylish &amp; Fashionable Full Sleeve Formal Shirts For Men</description>
+    <link>https://www.softwareseba.com/product/8</link>
+    <image_link>https://img.drz.lazcdn.com/static/bd/p/63971b4b22c11522e3ecad6b3c6ffb70.jpg_200x200q80.avif</image_link>
+    <price>310 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>9</id>
+    <title>Men&apos;s Formal Wear Collection</title>
+    <description>Men&apos;s Formal Wear Collection</description>
+    <link>https://www.softwareseba.com/product/9</link>
+    <image_link>https://img.drz.lazcdn.com/static/bd/p/0041cba954af07b2627c7c1ea06d8aa2.jpg_200x200q80.avif</image_link>
+    <price>335 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>10</id>
+    <title>High quality Men&apos;s full sleeve Cotton Formal Shirt</title>
+    <description>High quality Men&apos;s full sleeve Cotton Formal Shirt</description>
+    <link>https://www.softwareseba.com/product/10</link>
+    <image_link>https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>180 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>11</id>
+    <title>STYLISH new fashion long sleeve shirt for men</title>
+    <description>STYLISH new fashion long sleeve shirt for men</description>
+    <link>https://www.softwareseba.com/product/11</link>
+    <image_link>https://images.unsplash.com/photo-1603252109360-909baaf261c7?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>135 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>12</id>
+    <title>Denim Stylish Long Sleeve shirt For Men</title>
+    <description>Denim Stylish Long Sleeve shirt For Men</description>
+    <link>https://www.softwareseba.com/product/12</link>
+    <image_link>https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>110 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>men</google_product_category>
+  </product>
+  <product>
+    <id>13</id>
+    <title>Floral Summer Dress</title>
+    <description>Floral Summer Dress</description>
+    <link>https://www.softwareseba.com/product/13</link>
+    <image_link>https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>890 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>14</id>
+    <title>Elegant Party Dress</title>
+    <description>Elegant Party Dress</description>
+    <link>https://www.softwareseba.com/product/14</link>
+    <image_link>https://img.drz.lazcdn.com/static/bd/p/cf2cb612b67938d87350e7adf7bc26a8.png_200x200q80.avif</image_link>
+    <price>1200 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>15</id>
+    <title>Casual Day Dress</title>
+    <description>Casual Day Dress</description>
+    <link>https://www.softwareseba.com/product/15</link>
+    <image_link>https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>675 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>16</id>
+    <title>Traditional Dress</title>
+    <description>Traditional Dress</description>
+    <link>https://www.softwareseba.com/product/16</link>
+    <image_link>https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>950 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>17</id>
+    <title>Beautiful Cotton Maxi Dress</title>
+    <description>Beautiful Cotton Maxi Dress</description>
+    <link>https://www.softwareseba.com/product/17</link>
+    <image_link>https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>1150 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>18</id>
+    <title>Stylish Off-Shoulder Dress</title>
+    <description>Stylish Off-Shoulder Dress</description>
+    <link>https://www.softwareseba.com/product/18</link>
+    <image_link>https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>980 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>19</id>
+    <title>Vintage Style A-Line Dress</title>
+    <description>Vintage Style A-Line Dress</description>
+    <link>https://www.softwareseba.com/product/19</link>
+    <image_link>https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>780 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>20</id>
+    <title>Modern Wrap Dress Collection</title>
+    <description>Modern Wrap Dress Collection</description>
+    <link>https://www.softwareseba.com/product/20</link>
+    <image_link>https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>1050 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>women</google_product_category>
+  </product>
+  <product>
+    <id>21</id>
+    <title>Women&apos;s Vintage Polka Dot</title>
+    <description>Women&apos;s Vintage Polka Dot</description>
+    <link>https://www.softwareseba.com/product/21</link>
+    <image_link>https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>750 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>kids</google_product_category>
+  </product>
+  <product>
+    <id>22</id>
+    <title>Baby Girl&apos;s Frocks Dress</title>
+    <description>Baby Girl&apos;s Frocks Dress</description>
+    <link>https://www.softwareseba.com/product/22</link>
+    <image_link>https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>550 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>kids</google_product_category>
+  </product>
+  <product>
+    <id>23</id>
+    <title>Baby Boy&apos;s Stylish Dress Set</title>
+    <description>Baby Boy&apos;s Stylish Dress Set</description>
+    <link>https://www.softwareseba.com/product/23</link>
+    <image_link>https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>650 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>kids</google_product_category>
+  </product>
+  <product>
+    <id>24</id>
+    <title>Baby Boy&apos;s Stylish Collection T-Shirt</title>
+    <description>Baby Boy&apos;s Stylish Collection T-Shirt</description>
+    <link>https://www.softwareseba.com/product/24</link>
+    <image_link>https://images.unsplash.com/photo-1564859228273-274232fdb516?w=300&amp;h=400&amp;fit=crop&amp;auto=format</image_link>
+    <price>450 BDT</price>
+    <availability>in_stock</availability>
+    <brand>softwareseba</brand>
+    <condition>new</condition>
+    <google_product_category>kids</google_product_category>
+  </product>
+</products>
