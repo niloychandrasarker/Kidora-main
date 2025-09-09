@@ -164,6 +164,21 @@ const Navbar = () => {
 
           {/* Mobile Search and Menu */}
           <div className="lg:hidden flex items-center space-x-2">
+            {/* Mobile Account / Auth Trigger */}
+            <button
+              className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
+              onClick={() => {
+                if (isAuthenticated) {
+                  navigate('/profile');
+                } else {
+                  setAuthMode('login');
+                  setAuthModalOpen(true);
+                }
+              }}
+              aria-label={isAuthenticated ? 'Account' : 'Sign In'}
+            >
+              <User className="w-5 h-5" />
+            </button>
             {/* Mobile Search Icon (opens only search panel) */}
             <button
               className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
@@ -239,45 +254,70 @@ const Navbar = () => {
           <div className="lg:hidden border-t border-gray-200 bg-white">
             <div className="px-4 pt-4 pb-6 space-y-4">
               {/* Mobile Menu Items */}
-              <div className="grid grid-cols-2 gap-4 mt-6">
-                <button
-                  onClick={() => navigate("/profile")}
-                  className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
-                >
-                  <User className="w-6 h-6 text-blue-600" />
-                  <span className="text-sm font-medium text-gray-700">
-                    Profile
-                  </span>
-                </button>
-                {(isAdmin || isSubAdmin) && (
-                  <button
-                    onClick={() => { navigate('/admin'); setIsMobileMenuOpen(false); }}
-                    className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
-                  >
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full bg-indigo-600 text-white text-xs font-bold">{isAdmin ? 'A' : 'S'}</span>
-                    <span className="text-sm font-medium text-gray-700">{isAdmin ? 'Admin' : 'Sub Admin'}</span>
-                  </button>
+              <div className="grid grid-cols-2 gap-4 mt-2">
+                {isAuthenticated ? (
+                  <>
+                    <button
+                      onClick={() => { navigate('/profile'); setIsMobileMenuOpen(false); }}
+                      className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <User className="w-6 h-6 text-blue-600" />
+                      <span className="text-sm font-medium text-gray-700">Account</span>
+                    </button>
+                    {(isAdmin || isSubAdmin) && (
+                      <button
+                        onClick={() => { navigate('/admin'); setIsMobileMenuOpen(false); }}
+                        className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
+                      >
+                        <span className="w-6 h-6 flex items-center justify-center rounded-full bg-indigo-600 text-white text-xs font-bold">{isAdmin ? 'A' : 'S'}</span>
+                        <span className="text-sm font-medium text-gray-700">{isAdmin ? 'Admin' : 'Sub Admin'}</span>
+                      </button>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <button
+                      onClick={() => { setAuthMode('login'); setAuthModalOpen(true); }}
+                      className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <LogIn className="w-6 h-6 text-blue-600" />
+                      <span className="text-sm font-medium text-gray-700">Sign In</span>
+                    </button>
+                    <button
+                      onClick={() => { setAuthMode('register'); setAuthModalOpen(true); }}
+                      className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <User className="w-6 h-6 text-green-600" />
+                      <span className="text-sm font-medium text-gray-700">Sign Up</span>
+                    </button>
+                  </>
                 )}
                 <button
-                  onClick={() => navigate("/wishlist")}
+                  onClick={() => { navigate('/wishlist'); setIsMobileMenuOpen(false); }}
                   className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
                 >
                   <Heart className="w-6 h-6 text-red-500" />
-                  <span className="text-sm font-medium text-gray-700">
-                    Wishlist ({wishlistItemsCount})
-                  </span>
+                  <span className="text-sm font-medium text-gray-700">Wishlist ({wishlistItemsCount})</span>
                 </button>
-
                 <button
-                  onClick={() => navigate("/cart")}
+                  onClick={() => { navigate('/cart'); setIsMobileMenuOpen(false); }}
                   className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-gray-50 transition-colors"
                 >
                   <ShoppingCart className="w-6 h-6 text-green-500" />
-                  <span className="text-sm font-medium text-gray-700">
-                    Cart ({cartItemsCount})
-                  </span>
+                  <span className="text-sm font-medium text-gray-700">Cart ({cartItemsCount})</span>
                 </button>
               </div>
+
+              {isAuthenticated && (
+                <div className="pt-2 border-t border-gray-100">
+                  <button
+                    onClick={() => { logout(); setIsMobileMenuOpen(false); }}
+                    className="w-full flex items-center justify-center gap-2 py-3 text-sm font-medium text-red-600 rounded-md bg-red-50 hover:bg-red-100 transition-colors"
+                  >
+                    <LogOut className="w-4 h-4" /> Logout
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         )}
