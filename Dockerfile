@@ -1,23 +1,23 @@
-# Stage 1: Build React app
-FROM node:20-alpine AS build
+# Stage 1: Build the app using Node.js 22 and Vite
+FROM node:22-alpine AS builder
 
 WORKDIR /app
 
 COPY package.json package-lock.json ./
 RUN npm ci
 
-COPY . ./
+COPY . .
 RUN npm run build
 
-# Stage 2: Serve with Nginx
+# Stage 2: Serve with nginx
 FROM nginx:alpine
 
-# Copy built app to Nginx html folder
-COPY --from=build /app/build /usr/share/nginx/html
+# Replace the default Nginx config with one that supports client-side routing
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy custom Nginx config if needed
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
+# ✅ Copy Vite's build output from /app/dist
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 EXPOSE 80
-
 CMD ["nginx", "-g", "daemon off;"]
+
