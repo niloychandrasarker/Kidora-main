@@ -4,24 +4,30 @@ import { AuthProvider } from "./context/AuthContext";
 import { OrderProvider } from "./context/OrderContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
-import CategoryPage from "./pages/CategoryPage";
-import ProductDetails from "./pages/ProductDetails";
 import CartPage from "./pages/CartPage";
 import WishlistPage from "./pages/WishlistPage";
-import SearchPage from "./pages/SearchPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ProfilePage from "./pages/ProfilePage";
 import OrdersPage from "./pages/OrdersPage";
 import OrderDetails from "./pages/OrderDetails";
 import AdminLayout from "./admin/AdminLayout";
 import Dashboard from "./admin/pages/Dashboard";
-import Products from "./admin/pages/Products";
+
 import HeroBanners from "./admin/pages/HeroBanners";
 import AdminOrders from "./admin/pages/Orders";
 import AdminReturns from "./admin/pages/Returns";
 import AdminUsers from "./admin/pages/Users";
 import "./App.css";
+import {lazy} from "react";
+
+const HomePage = lazy(() => import("./pages/HomePage"));
+const ProductDetails = lazy(() => import("./pages/ProductDetails"));
+const CategoryPage = lazy(() => import("./pages/CategoryPage"));
+const SearchPage = lazy(() => import("./pages/SearchPage"));
+
+const Products = lazy(() => import("./admin/pages/Products"));
+
+
 
 function AppShell() {
   const location = useLocation();

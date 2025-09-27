@@ -69,7 +69,7 @@ const HeroBanner = () => {
     };
     if (banners.length > 0) fetchLinked();
     return () => { cancelled = true; };
-  }, [banners, productsById]);
+  }, [banners]);
 
   const next = () => setCurrent((prev) => prev + 1);
   const prev = () => setCurrent((prev) => prev - 1);
