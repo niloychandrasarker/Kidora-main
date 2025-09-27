@@ -1,5 +1,5 @@
 // const BASE_URL = 'https://kidora-backend.onrender.com/api';
-const BASE_URL = 'http://kidora-backend:8080/api'; // for local dev
+const BASE_URL = 'http://127.0.0.1:8080/api'; // for local dev
 
 class ApiService {
   constructor() {
